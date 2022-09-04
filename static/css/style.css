@@ -1,0 +1,52 @@
+body{
+    background-color: #232946;
+    color: #ffe;
+}
+.head span{
+    color: #b8c1ec;
+}
+
+.main{
+    height: 70vh;
+}
+input{
+    border: none;
+    padding: .35em;
+    border-radius: .3em;
+    outline: none;
+}
+.rt div,.lt div{
+    margin-bottom: .2em;
+    background-color: #232946;
+    color: #ffe;
+    padding: .2em .9em;
+    border-radius: 1em 1em 1em 0;
+    float: left;
+}
+.lt{
+    cursor: pointer;
+}
+.rt div{
+    border-radius: 1em 1em 0 1em ;
+    float: right;
+}
+.box{
+    position: relative;
+    overflow: hidden;
+}
+.msgs{
+    overflow: hidden;
+}
+.msgs::after{
+    display: none;
+    position: absolute;
+    content: 'Type here...';
+    color: #b8c1ec;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+#msgbox{
+    overflow-x: hidden;
+}
